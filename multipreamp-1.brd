@@ -1876,6 +1876,7 @@ design rules under a new name.</description>
 <element name="JP-" library="pinhead" package="1X01" value="" x="2.54" y="31.75"/>
 <element name="C6" library="rcl" package="E2,5-6" value="" x="5.08" y="36.83" rot="R180"/>
 <element name="C7" library="rcl" package="C0805" value="100n SMD" x="66.04" y="29.21" rot="MR90"/>
+<element name="SJ6" library="jumper" package="SJ" value="" x="15.24" y="35.56" rot="MR90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2034,6 +2035,8 @@ design rules under a new name.</description>
 <wire x1="13.97" y1="42.418" x2="4.572" y2="42.418" width="0.6096" layer="16"/>
 <wire x1="4.572" y1="42.418" x2="3.81" y2="43.18" width="0.6096" layer="16" curve="-90"/>
 <wire x1="13.97" y1="39.37" x2="13.97" y2="42.418" width="0.6096" layer="16"/>
+<contactref element="SJ6" pad="2"/>
+<wire x1="15.24" y1="36.322" x2="13.97" y2="39.37" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$12">
 <contactref element="POT_GAIN" pad="1"/>
@@ -2447,6 +2450,8 @@ design rules under a new name.</description>
 <contactref element="SJ3" pad="1"/>
 <wire x1="14.478" y1="13.97" x2="13.97" y2="13.97" width="0.6096" layer="16"/>
 <wire x1="13.97" y1="13.97" x2="12.7" y2="12.7" width="0.6096" layer="16" curve="90"/>
+<contactref element="SJ6" pad="1"/>
+<wire x1="14.478" y1="13.97" x2="15.24" y2="34.798" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="TONE_IN">
 <contactref element="SJ3" pad="2"/>
