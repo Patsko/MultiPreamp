@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,13 +39,13 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -17103,17 +17103,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C40" library="rcl" deviceset="C-EU" device="025-025X050"/>
 <part name="C41" library="rcl" deviceset="C-EU" device="025-025X050"/>
 <part name="C42" library="rcl" deviceset="C-EU" device="025-025X050"/>
+<part name="SJ6" library="jumper" deviceset="SJ" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="139.7" y="152.4" size="1.778" layer="97">Umble - montar R39 e deixar jumper em aberto</text>
-<text x="139.7" y="149.86" size="1.778" layer="97">Fender/Marshall - montar jumper e deixar R39 em aberto</text>
-<text x="139.7" y="147.32" size="1.778" layer="97">Azabache - Ligar resistor 47k em C24, capacitor 10n em R39, cap e chave scoop em POT_MIDS, jumper em C25</text>
+<text x="167.64" y="165.1" size="1.778" layer="97">Umble - montar R39 e deixar jumpers em aberto. Controle Mid ficará invertido em relação ao original.</text>
+<text x="167.64" y="160.02" size="1.778" layer="97">Marshall - montar SJ1</text>
 <text x="408.94" y="121.92" size="1.778" layer="97">Pontos JP2 e JP3 apenas para chave Clean/Dirt no Azabache, se montado</text>
 <text x="144.78" y="33.02" size="1.778" layer="97">Chave Bright/Gain</text>
 <text x="543.56" y="20.32" size="1.778" layer="97">Presence</text>
 <text x="269.24" y="101.6" size="1.778" layer="97">Ponto JP1 para chave Clean/Dirt Azabache</text>
+<text x="167.64" y="162.56" size="1.778" layer="97">Fender - montar SJ1 e SJ6</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="73.66" y="55.88"/>
@@ -17316,19 +17317,19 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="137.16" y="162.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127" y="160.02" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="POT_MIDS" gate="G$1" x="101.6" y="147.32" smashed="yes" rot="MR0">
-<attribute name="NAME" x="106.68" y="147.32" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="106.68" y="144.78" size="1.778" layer="96" rot="MR90"/>
+<instance part="POT_MIDS" gate="G$1" x="127" y="137.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="132.08" y="137.16" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="132.08" y="134.62" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="C22" gate="G$1" x="111.76" y="182.88" rot="R90"/>
 <instance part="C23" gate="G$1" x="111.76" y="190.5" rot="R90"/>
 <instance part="R38" gate="G$1" x="104.14" y="177.8" rot="R270"/>
-<instance part="C25" gate="G$1" x="104.14" y="162.56" rot="R180"/>
-<instance part="GND38" gate="1" x="104.14" y="137.16"/>
-<instance part="GND39" gate="1" x="129.54" y="137.16"/>
-<instance part="R39" gate="G$1" x="129.54" y="147.32" rot="R270"/>
+<instance part="C25" gate="G$1" x="104.14" y="157.48" rot="R180"/>
+<instance part="GND38" gate="1" x="129.54" y="124.46"/>
+<instance part="GND39" gate="1" x="147.32" y="137.16"/>
+<instance part="R39" gate="G$1" x="147.32" y="147.32" rot="R270"/>
 <instance part="C24" gate="G$1" x="116.84" y="170.18" rot="R270"/>
-<instance part="SJ1" gate="1" x="116.84" y="154.94"/>
+<instance part="SJ1" gate="1" x="129.54" y="149.86" rot="R90"/>
 <instance part="P+6" gate="1" x="403.86" y="109.22"/>
 <instance part="Q6" gate="G$1" x="101.6" y="93.98"/>
 <instance part="P+7" gate="1" x="104.14" y="101.6"/>
@@ -17423,6 +17424,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="395.224" y="76.581" size="1.778" layer="95"/>
 <attribute name="VALUE" x="394.081" y="72.136" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="SJ6" gate="1" x="119.38" y="144.78" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -17594,15 +17596,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="POT_MIDS" gate="G$1" pin="1"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<pinref part="POT_MIDS" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="147.32" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
-<junction x="104.14" y="139.7"/>
+<wire x1="129.54" y1="129.54" x2="129.54" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
 <pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="139.7" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="139.7" x2="147.32" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R43" gate="G$1" pin="2"/>
@@ -18161,12 +18160,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="C25" gate="G$1" pin="1"/>
 <pinref part="POT_MIDS" gate="G$1" pin="3"/>
-<wire x1="104.14" y1="154.94" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="1" pin="1"/>
-<wire x1="111.76" y1="154.94" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
-<junction x="104.14" y="154.94"/>
+<wire x1="124.46" y1="144.78" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
+<junction x="129.54" y="144.78"/>
+<pinref part="SJ6" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="TONE/TREBLE_3" class="0">
@@ -18187,9 +18185,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="POT_BASS" gate="G$1" pin="1"/>
 <pinref part="R39" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="152.4" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="152.4" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="154.94" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="129.54" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
 <junction x="129.54" y="154.94"/>
 </segment>
 </net>
@@ -18296,7 +18294,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="172.72" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="170.18" x2="104.14" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="170.18" x2="104.14" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="170.18" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
 <junction x="104.14" y="170.18"/>
 </segment>
@@ -18440,6 +18438,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="152.4" y1="68.58" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="66.04" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
 <junction x="152.4" y="68.58"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<wire x1="114.3" y1="144.78" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="154.94" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="137.16" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="SJ6" gate="1" pin="2"/>
+<pinref part="POT_MIDS" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="137.16" x2="124.46" y2="137.16" width="0.1524" layer="91"/>
+<junction x="114.3" y="137.16"/>
 </segment>
 </net>
 </nets>
