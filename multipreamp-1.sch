@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,13 +39,13 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -16924,7 +16924,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="R12" library="rcl" deviceset="R-TRIMM" device="64W"/>
+<part name="R12" library="rcl" deviceset="R-TRIMM" device="3296W"/>
 <part name="POT_TREBLE/TONE" library="gm-pots" deviceset="POT" device="PCB"/>
 <part name="POT_GAIN" library="gm-pots" deviceset="POT" device="PCB"/>
 <part name="R21" library="rcl" deviceset="R-US_" device="R0805"/>
@@ -16944,11 +16944,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R29" library="rcl" deviceset="R-US_" device="0207/7"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="R27" library="rcl" deviceset="R-TRIMM" device="64W"/>
+<part name="R27" library="rcl" deviceset="R-TRIMM" device="3296W"/>
 <part name="C27" library="rcl" deviceset="C-EU" device="050-025X075"/>
 <part name="JP7" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="R30" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
-<part name="R31" library="rcl" deviceset="R-US_" device="0207/5V"/>
+<part name="R31" library="rcl" deviceset="R-US_" device="0207/7"/>
 <part name="R32" library="rcl" deviceset="R-US_" device="0207/7"/>
 <part name="D3" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148"/>
 <part name="D4" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148"/>
@@ -16963,7 +16963,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="Q5" library="gm-trans" deviceset="J201" device=""/>
 <part name="R34" library="rcl" deviceset="R-US_" device="0207/7"/>
 <part name="R35" library="rcl" deviceset="R-US_" device="0207/7"/>
-<part name="R33" library="rcl" deviceset="R-TRIMM" device="64W"/>
+<part name="R33" library="rcl" deviceset="R-TRIMM" device="3296W"/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="C32" library="rcl" deviceset="C-EU" device="050-025X075"/>
 <part name="R36" library="rcl" deviceset="R-US_" device="R0805" value="1M SMD"/>
@@ -16982,7 +16982,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="Q6" library="gm-trans" deviceset="J201" device=""/>
 <part name="R40" library="rcl" deviceset="R-US_" device="0207/7"/>
 <part name="R41" library="rcl" deviceset="R-US_" device="0207/7"/>
-<part name="R39" library="rcl" deviceset="R-TRIMM" device="64W"/>
+<part name="R39" library="rcl" deviceset="R-TRIMM" device="3296W"/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="JP8" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP9" library="pinhead" deviceset="PINHD-1X1" device=""/>
